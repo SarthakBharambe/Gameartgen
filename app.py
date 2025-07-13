@@ -7,7 +7,7 @@ import os
 from utils.prompts import load_category_prompts
 
 
-
+os.makedirs("outputs", exist_ok=True)
 
 # Set page configuration
 st.set_page_config(
@@ -30,20 +30,18 @@ st.markdown("Create custom characters, weapons, icons, and backgrounds with simp
 
 # Sidebar controls
 st.sidebar.header("🧠 Input Settings")
-from utils.prompts import load_category_prompts  # ✅ Add this at top
-
+from utils.prompts import load_category_prompts  
 # ✅ Load smart prompt suggestions
 category_prompts = load_category_prompts()
 
-# ==========================
-# SIDEBAR INPUTS
-# ==========================
+
+# SIDEBAR INPUT
 st.sidebar.header("🧠 Input Settings")
 
 # Step 1: Category selection
 category = st.sidebar.selectbox(
     "🎯 Select Category",
-    list(category_prompts.keys())  # ✅ dynamic based on file
+    list(category_prompts.keys())  
 )
 
 # Step 2: Style selection
