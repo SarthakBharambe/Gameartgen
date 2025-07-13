@@ -1,0 +1,67 @@
+/* ==== GAMEARTGEN UI CUSTOM STYLING ==== */
+
+/* Page text styles */
+h1, h2, h3, .stMarkdown, .stTextInput > label {
+    color: #f2f2f2;
+    font-weight: 600;
+}
+
+/* Button styling */
+div.stButton > button {
+    background-color: #5b2fd5;
+    color: white;
+    font-weight: bold;
+    padding: 0.6em 1.5em;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+}
+
+div.stButton > button:hover {
+    background-color: #3a1da0;
+}
+
+/* Sidebar panel */
+.stSidebar {
+    background-color: #1e1e1e !important;
+    padding: 1em;
+}
+
+/* Image preview tweaks */
+img {
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+/* Markdown and spacing */
+.stMarkdown {
+    line-height: 1.6;
+    font-size: 16px;
+    padding-top: 10px;
+}
+/* === DOWNLOAD BUTTON STYLING === */
+.stDownloadButton > button {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    margin-top: 10px;
+}
+
+.stDownloadButton > button:hover {
+    background-color: #388e3c;
+}
+/* Light shadow around images */
+img {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Smooth layout padding */
+main > div {
+    padding: 1rem 2rem;
+}
+

@@ -1,0 +1,10 @@
+Character: A hooded rogue with glowing daggers and a cyberpunk visor
+Item: An ancient orb emitting blue lightning energy
+Weapon: A double-bladed katana infused with electricity
+Background: A floating island in the sky with waterfalls and glowing crystals
+Creature: A dragon made of molten lava with neon wings
+Vehicle: A futuristic hover bike with plasma exhaust
+Building: A mystical temple with rune-lit pillars and floating rocks
+NPC: A robotic merchant with multiple arms and glowing eyes
+Spell Effect: A swirling vortex of purple magical fire
+Interface Icon: A gold coin with embossed sword symbol in pixel style
